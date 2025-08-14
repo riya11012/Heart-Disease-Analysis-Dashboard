@@ -1,67 +1,71 @@
 
-💓 Heart Disease Analysis Dashboard
+💓 Heart Disease Analysis Dashboard – Portfolio Case Study
+1. Problem
 
-This project is a **data-driven, interactive Power BI dashboard** designed to analyze **heart disease survival trends** across different age groups and genders. It provides **clear, actionable insights** into key medical and demographic factors influencing patient outcomes.
+Cardiovascular diseases are a leading cause of death worldwide, yet healthcare providers often struggle to quickly identify high-risk patient groups from large, complex datasets.
+Hospitals and research institutions need a clear, interactive, and data-driven way to analyze survival rates across demographics and medical factors to guide early intervention strategies.
 
----
+2. Strategy
 
- 🔍 Overview
+I aimed to design an interactive Power BI dashboard that not only displays heart disease survival statistics but also makes it easy for healthcare professionals to explore the impact of key health factors across age groups and genders.
+My approach included:
 
-The dataset contains **medical and demographic records** of heart disease patients. Through advanced **DAX calculations** and **visual storytelling**, the dashboard highlights:
+Data Cleaning & Modeling to ensure accuracy.
 
-* Total Deaths vs. Survivals
-* Survival Rate & Average Age of Survival
-* Gender-based Comparison (Female, Male, Combined)
-* Impact of Key Health Factors
+Creating custom DAX measures for meaningful metrics.
 
-  * Serum Creatinine Levels
-  * Ejection Fraction
-  * High Blood Pressure
-  * Anaemia
-  * Smoking
-  * Diabetes
+Designing gender-toggle views for comparative analysis.
 
----
+Building visual narratives for storytelling with data.
 
- 📊 Key Visuals
+3. Execution
 
-* Survival Rate by Age Group
-* Death Count vs. Serum Creatinine
-* Death Count vs. Ejection Fraction
-* Spline Chart for comorbidities
-* Gender Toggle to compare trends across M/F
+Tools & Technologies:
 
----
+Power BI – Dashboard creation and interactivity
 
-## ⚙️ Tools & Technologies
+DAX – Custom measures for survival rate, deaths, and age averages
 
-* Power BI for dashboard design and interactivity
-* DAX for custom measures:
+Data Cleaning – Removing inconsistencies and preparing the dataset for modeling
 
-  ```DAX
-  Avg Age of Survival = CALCULATE(
-      AVERAGE(heart_Disease_clinical_records_[age]),
-      heart_Disease_clinical_records_[DEATH_EVENT] = 0
-  )
+Key DAX Measures:
 
-  Survival Rate = 1 - DIVIDE(
-      SUM(heart_Disease_clinical_records_[DEATH_EVENT]),
-      COUNT(heart_Disease_clinical_records_[count])
-  )
+Avg Age of Survival = CALCULATE(
+    AVERAGE(heart_Disease_clinical_records_[age]),
+    heart_Disease_clinical_records_[DEATH_EVENT] = 0
+)
 
-  Total Deaths = CALCULATE(
-      COUNT(heart_Disease_clinical_records_[count]),
-      heart_Disease_clinical_records_[DEATH_EVENT] = 1
-  )
+Survival Rate = 1 - DIVIDE(
+    SUM(heart_Disease_clinical_records_[DEATH_EVENT]),
+    COUNT(heart_Disease_clinical_records_[count])
+)
 
-  Total Survivals = CALCULATE(
-      COUNT(heart_Disease_clinical_records_[count]),
-      heart_Disease_clinical_records_[DEATH_EVENT] = 0
-  )
-  ```
-* Data Cleaning & Modeling** for accuracy and consistency
+Total Deaths = CALCULATE(
+    COUNT(heart_Disease_clinical_records_[count]),
+    heart_Disease_clinical_records_[DEATH_EVENT] = 1
+)
 
----
+Total Survivals = CALCULATE(
+    COUNT(heart_Disease_clinical_records_[count]),
+    heart_Disease_clinical_records_[DEATH_EVENT] = 0
+)
+
+
+Dashboard Features:
+
+Overall Analysis View – Total deaths, survivals, survival rate, average age of survivors.
+
+Gender Toggle – Switch between male, female, or combined data.
+
+Key Visuals:
+
+Survival rate by age group
+
+Death count vs. serum creatinine levels
+
+Death count vs. ejection fraction
+
+Spline charts for comorbidities like anaemia, smoking, and diabetes
 
  📁 Dashboard Views
 
@@ -79,15 +83,24 @@ The dataset contains **medical and demographic records** of heart disease patien
 
 
 
- 📎 Use Cases
+ 4.📎 Results
 
-* Health risk profiling by demographic group
-* Identifying age groups at higher cardiac risk
-* Comparative gender-based health analytics
-* Storytelling in medical data with interactive visuals
+The final dashboard:
 
----
+Improved clarity for identifying high-risk patient groups by age and gender.
 
-If you want, I can expand this into a full portfolio project write-up** with a **project objective, methodology, dataset description, insights, and screenshots**, so it becomes a ready-to-upload **resume and LinkedIn showcase project**.
+Allowed interactive exploration of medical and lifestyle factors impacting survival.
 
-Do you want me to prepare that next?
+Enabled quick data-driven decisions for targeted healthcare interventions.
+
+Served as a ready-to-use analytical tool for medical researchers and hospitals.
+
+Potential Use Cases:
+
+Hospital cardiac departments for patient risk assessment.
+
+Public health agencies for targeted prevention programs.
+
+Medical researchers studying gender-specific heart disease patterns.
+
+
