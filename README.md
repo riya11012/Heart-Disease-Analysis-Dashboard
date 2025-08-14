@@ -1,4 +1,4 @@
-<img width="1332" height="725" alt="image" src="https://github.com/user-attachments/assets/afa69a3c-a407-4172-9841-26794ccc0f6e" /><img width="1332" height="725" alt="image" src="https://github.com/user-attachments/assets/9b40d980-e907-482a-a6ca-b31986e6bc49" />
+
 💓 Heart Disease Analysis Dashboard
 
 This project is a **data-driven, interactive Power BI dashboard** designed to analyze **heart disease survival trends** across different age groups and genders. It provides **clear, actionable insights** into key medical and demographic factors influencing patient outcomes.
@@ -66,11 +66,17 @@ The dataset contains **medical and demographic records** of heart disease patien
  📁 Dashboard Views
 
 1. Overall Population Analysis
- <img width="1332" height="725" alt="image" src="https://github.com/user-attachments/assets/b0b6ed0d-6d64-441e-9291-436a4eb91317" />
-
    
-3. Female-Only Analysis
-4. Male-Only Analysis
+   <img width="1322" height="736" alt="image" src="https://github.com/user-attachments/assets/7b2b875d-34c8-4436-9182-d6e0bc66d426" />
+   
+2. Female-Only Analysis
+   
+    <img width="1332" height="725" alt="image" src="https://github.com/user-attachments/assets/b0b6ed0d-6d64-441e-9291-436a4eb91317" />
+    
+3. Male-Only Analysis
+
+   <img width="1312" height="732" alt="image" src="https://github.com/user-attachments/assets/1c7a390e-dbde-4723-8c43-0adf9f408bde" />
+
 
 
  📎 Use Cases
