@@ -3,19 +3,27 @@
 
 1. Problem
 
-Cardiovascular diseases are a leading cause of death worldwide, yet healthcare providers often struggle to quickly identify high-risk patient groups from large, complex datasets.
+Cardiovascular diseases are a leading cause of death worldwide, yet healthcare providers often struggle to quickly 
+identify high-risk patient groups from large, complex datasets.
+
 Hospitals and research institutions need a clear, interactive, and data-driven way to analyze survival rates across demographics and medical factors to guide early intervention strategies.
 
 2. Strategy
 
 I aimed to design an interactive Power BI dashboard that not only displays heart disease survival statistics but also makes it easy for healthcare professionals to explore the impact of key health factors across age groups and genders.
+
 My approach included:
+
 Data Cleaning & Modeling to ensure accuracy.
+
 Creating custom DAX measures for meaningful metrics.
+
 Designing gender-toggle views for comparative analysis.
+
 Building visual narratives for storytelling with data.
 
 3. Execution
+
 Tools & Technologies:
 
 Power BI – Dashboard creation and interactivity
@@ -83,13 +91,21 @@ Spline charts for comorbidities like anaemia, smoking, and diabetes
  4.📎 Results
 
 The final dashboard:
+
 Improved clarity for identifying high-risk patient groups by age and gender.
+
 Allowed interactive exploration of medical and lifestyle factors impacting survival.
+
 Enabled quick data-driven decisions for targeted healthcare interventions.
+
 Served as a ready-to-use analytical tool for medical researchers and hospitals.
+
 Potential Use Cases:
+
 Hospital cardiac departments for patient risk assessment.
+
 Public health agencies for targeted prevention programs.
+
 Medical researchers studying gender-specific heart disease patterns.
 
 
