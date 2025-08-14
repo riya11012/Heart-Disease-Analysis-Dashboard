@@ -71,8 +71,8 @@ The dataset contains **medical and demographic records** of heart disease patien
    
 2. Female-Only Analysis
    
-    <img width="1332" height="725" alt="image" src="https://github.com/user-attachments/assets/b0b6ed0d-6d64-441e-9291-436a4eb91317" />
-    
+    <img width="1326" height="736" alt="image" src="https://github.com/user-attachments/assets/d259f49f-7896-4be9-830c-668151d86289" />
+
 3. Male-Only Analysis
 
    <img width="1312" height="732" alt="image" src="https://github.com/user-attachments/assets/1c7a390e-dbde-4723-8c43-0adf9f408bde" />
